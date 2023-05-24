@@ -1,0 +1,100 @@
+.bottom_card_container {
+  height: 100%;
+  min-height: 400px;
+  width: min(700px, 100%);
+  display: flex;
+  flex-direction: column;
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 30px 25px 30px;
+  /* border: 2px dotted white; */
+}
+.password_search_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #c3caea;
+}
+.password_count_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.your_password_text {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0px;
+}
+.password_count {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 0px 7px 0px 7px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.search_icon_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 2px;
+  /* height: 25px; */
+  box-sizing: content-box;
+}
+.search_image {
+  width: 20px;
+  height: 20px;
+}
+.search_icon_bottom {
+  margin-left: 5px;
+  border: none;
+  outline: none;
+}
+.show_password_list_container {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px dotted darkgoldenrod; */
+}
+.radio_show_password_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 40px;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.show_password_text {
+  margin-left: 5px;
+  color: #ffffff;
+}
+.unorder_list_container {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.no_password_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px dotted red; */
+}
+.no_password_img {
+  width: 250px;
+  height: 200px;
+}
+.no_pass_text {
+  color: #ffffff;
+  font-size: 18px;
+}
